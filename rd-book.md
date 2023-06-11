@@ -6,6 +6,7 @@
 ## 本地运行
 - 从打包后的文件提取相关配置
 > cd Documents/elasticsearch-7.16.4-SNAPSHOT
+>
 > cp -r config modules plugins /Users/your_name/Documents/eshome
 - 配置启动jvm参数
 ```
@@ -24,4 +25,4 @@ grant {
 };
 
 ```
--- 注销security.policy中codeBase相关配置，见git log
+- 注销security.policy中codeBase相关配置，见git log
